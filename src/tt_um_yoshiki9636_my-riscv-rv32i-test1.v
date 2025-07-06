@@ -18,8 +18,6 @@ module tt_um_yoshiki9636_my_riscv_rv32i_test1 (
 
 wire [2:0] rgb_led;
 wire [2:0] rgb_led1;
-wire [2:0] rgb_led2;
-wire [2:0] rgb_led3;
 wire tx;
 wire rx = ui_in[0];
 wire interrupt_0 = ui_in[1];
@@ -37,9 +35,7 @@ fpga_top fpga_top (
         .tx(tx),
         .interrupt_0(interrupt_0),
         .rgb_led(rgb_led),
-        .rgb_led1(rgb_led1),
-        .rgb_led2(rgb_led2),
-        .rgb_led3(rgb_led3)
+        .rgb_led1(rgb_led1)
     );
 
 

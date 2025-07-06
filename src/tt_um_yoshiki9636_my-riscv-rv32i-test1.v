@@ -29,7 +29,7 @@ wire interrupt_0 = ui_in[1];
 
 
 fpga_top fpga_top (
-        .clkin(clk),
+        .clk(clk),
         .rst_n(rst_n),
         .rx(rx),
         .tx(tx),

@@ -15,7 +15,7 @@ module fpga_top
     #(parameter IWIDTH = 8,
       parameter DWIDTH = 8)
 	(
-	input clkin,
+	input clk,
 	input rst_n,
 	input rx,
 	output tx,
@@ -63,7 +63,6 @@ wire cpu_start;
 wire quit_cmd;
 wire [31:0] pc_data;
 
-wire clk;
 wire stdby = 1'b0 ;
 // for debug
 wire tx_fifo_full;
@@ -75,7 +74,6 @@ wire [7:0] uart_io_char;
 wire  uart_io_we;
 wire  uart_io_full;
 
-wire clk = clkin;
 
 cpu_top #(.DWIDTH(DWIDTH), .IWIDTH(IWIDTH)) cpu_top (
 	.clk(clk),

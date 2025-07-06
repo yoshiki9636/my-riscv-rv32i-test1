@@ -17,7 +17,33 @@ project:
   # Source files must be in ./src and you must list each source file separately, one per line.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - "cpu_status.v" ,"cpu_top.v" ,"csr_array.v" ,"data_1r1w.v" ,"data_ram.v" ,"dma.v" ,"ex_stage.v" ,"exception.v" ,"forwarding.v" ,"fpga_top.v" ,"id_stage.v" ,"if_stage.v" ,"inst_1r1w.v" ,"interrupter.v" ,"io_led.v" ,"io_uart_out.v" ,"ma_stage.v" ,"rf_2r1w.v" ,"uart_1r1w.v" ,"uart_if.v" ,"uart_logics.v" ,"uart_loop.v" ,"uart_rec_char.v" ,"uart_send_char.v" ,"uart_top.v" ,"wb_stage.v" ,"project.v"
+    - "project.v"
+    - "cpu_status.v" 
+    - "cpu_top.v" 
+    - "csr_array.v" 
+    - "data_1r1w.v" 
+    - "data_ram.v" 
+    - "dma.v" 
+    - "ex_stage.v" 
+    - "exception.v" 
+    - "forwarding.v" 
+    - "fpga_top.v" 
+    - "id_stage.v" 
+    - "if_stage.v" 
+    - "inst_1r1w.v" 
+    - "interrupter.v" 
+    - "io_led.v" 
+    - "io_uart_out.v" 
+    - "ma_stage.v" 
+    - "rf_2r1w.v" 
+    - "uart_1r1w.v" 
+    - "uart_if.v" 
+    - "uart_logics.v" 
+    - "uart_loop.v" 
+    - "uart_rec_char.v" 
+    - "uart_send_char.v" 
+    - "uart_top.v" 
+    - "wb_stage.v" 
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).

@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_yoshiki9636_my-riscv-rv32i-test1 (
+module tt_um_yoshiki9636_my_riscv_rv32i_test1 (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path

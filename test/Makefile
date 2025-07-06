@@ -5,7 +5,9 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = tt_um_yoshiki9636_my-riscv-rv32i-test1.v cpu_status.v cpu_top.v csr_array.v data_1r1w.v data_ram.v dma.v ex_stage.v exception.v forwarding.v fpga_top.v id_stage.v if_stage.v inst_1r1w.v interrupter.v io_led.v io_uart_out.v ma_stage.v rf_2r1w.v uart_1r1w.v uart_if.v uart_logics.v uart_loop.v uart_rec_char.v uart_send_char.v uart_top.v wb_stage.v
+
+
 
 ifneq ($(GATES),yes)
 

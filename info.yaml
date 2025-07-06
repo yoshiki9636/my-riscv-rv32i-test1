@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
-  title:        "yoshiki9636_my-riscv-rv32i-test1"      # Project title
-  author:       "Yoshiki Kurokawa"      # Your name
+  title:        "my-riscv-rv32i-test1"      # Project title
+  author:       "yoshiki9636"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "RISCV rv32i"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc

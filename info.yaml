@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "my-riscv-rv32i-test1"      # Project title
+  title:        "yoshiki9636_my-riscv-rv32i-test1"      # Project title
   author:       "Yoshiki Kurokawa"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "RISCV rv32i"      # One line description of what your project does

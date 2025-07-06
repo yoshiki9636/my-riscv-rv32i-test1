@@ -75,33 +75,7 @@ wire [7:0] uart_io_char;
 wire  uart_io_we;
 wire  uart_io_full;
 
-
-`ifdef ARTY_A7
-wire locked;
- // Instantiation of the clocking network
- //--------------------------------------
-  clk_wiz_0 clknetwork
-   (
-    // Clock out ports
-    .clk_out1           (clk),
-    // Status and control signals
-    .reset              (~rst_n),
-    .locked             (locked),
-   // Clock in ports
-    .clk_in1            (clkin)
-);
-`endif
-
-`ifdef TANG_PRIMER
-wire clklock;
-pll pll (
-	.refclk(clkin),
-	.reset(~rst_n),
-	//.stdby(stdby),
-	.extlock(clklock),
-	.clk0_out(clk)
-	);
-`endif
+wire clk = clkin;
 
 cpu_top #(.DWIDTH(DWIDTH), .IWIDTH(IWIDTH)) cpu_top (
 	.clk(clk),
